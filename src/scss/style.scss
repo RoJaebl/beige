@@ -10,7 +10,6 @@ body {
   font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
-<<<<<<< HEAD
   margin-top: 40px;
 }
 
@@ -140,53 +139,5 @@ body {
         }
       }
     }
-=======
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  padding: 20px;
-  font-size: 13px;
-  align-items: start;
-  h1 {
-    font-weight: 500;
-    cursor: pointer;
-    &:hover {
-      color: blue;
-    }
-  }
-}
-
-body {
-  display: grid;
-  grid-template-columns: 1.4fr 4fr;
-}
-
-main {
-  display: grid;
-  column-gap: 20px;
-  row-gap: 80px;
-  grid-template-columns: repeat((2, 1fr));
-  nav {
-    grid-column-start: span 2;
-    ul {
-      display: flex;
-      li:not(:last-child) {
-        margin-right: 10px;
-      }
-    }
-  }
-  .photo {
-    &:hover {
-      h4 {
-        color: blue;
-      }
-    }
-    img {
-      max-width: 100%;
-      margin-bottom: 10px;
-    }
-    h4 {
-      font-size: 14px;
-    }
->>>>>>> 15bc8f11aedc5d93098698933ff831c622908594
   }
 }
