@@ -1,0 +1,14 @@
+@mixin colorPattern($nthChildNums) {
+  @content;
+}
+@mixin randomBackImg($nums) {
+  @each $num in $nums {
+    &:nth-child(#{$num}) {
+      .post__content {
+        .invisible {
+          background-image: url("https://source.unsplash.com/random/#{$num}");
+        }
+      }
+    }
+  }
+}
